@@ -14,5 +14,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "font-awesome": "~4.4.0",
+    "normalize-css": "~3.0.3",
+    "neat": "~1.7.2",
+    "yoga-sass": "~0.1.1"
+  }
 }
