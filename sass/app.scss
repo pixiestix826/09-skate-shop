@@ -14,7 +14,7 @@ html {
   box-sizing: inherit;
 }
 body {
-  // background: url(img/bg.jpg);
+  background: url(img/bg.jpg);
 }
 a {
   text-decoration: inherit;
@@ -29,7 +29,7 @@ a {
 /** TOP CONNECTION HEADER STYLES **/
 header {
   display: relative;
-  height: 35rem;
+  height: calc(100vh - 15rem);
   text-transform: uppercase;
   background: green;
 }
@@ -98,6 +98,6 @@ li {
 }
 .radio_btns {
   position: absolute;
-  top: 24rem;
+  top: 23.3rem;
   left: 50%;
 }
