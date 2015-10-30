@@ -27,6 +27,11 @@ a {
 }
 
 /** TOP CONNECTION HEADER STYLES **/
+header {
+  display: relative;
+  height: 35rem;
+  background: green;
+}
 .top_connect {
   display: flex;
   justify-content: flex-end;
@@ -68,4 +73,24 @@ li {
   list-style: none;
   border: 1px #eee solid;
   background: purple;
+}
+
+/** HERO STYLING **/
+.hero {
+  position: relative;
+}
+
+.hero_bg {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  border: 0.6rem #eee solid;
+}
+.hero_logo {
+  position: absolute;
+}
+.radio_btns {
+  position: absolute;
+  top: 80%;
+  left: 50%;
 }
