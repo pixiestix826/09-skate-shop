@@ -29,7 +29,7 @@ a {
 /** TOP CONNECTION HEADER STYLES **/
 header {
   display: relative;
-  height: 37rem;
+  height: 35rem;
   text-transform: uppercase;
   background: green;
 }
@@ -64,7 +64,9 @@ header {
 /** NAVBAR HEADING STYLES **/
 ul {
   display: flex;
+  margin: auto;
   justify-content: flex-start;
+  padding-left: 0;
 
 }
 li {
@@ -77,6 +79,7 @@ li {
   list-style: none;
   border: 1px #eee solid;
   background: purple;
+  color: #eee;
 }
 
 /** HERO STYLING **/
