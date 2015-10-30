@@ -27,55 +27,6 @@ a {
   background: blue;
 }
 
-/** TOP CONNECTION HEADER STYLES **/
-header {
-  display: relative;
-  text-transform: uppercase;
-  background: green;
-}
-.top-connect {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  height: 4rem;
-  background: red;
-  line-height: 6rem;
-}
-.sub-link {
-  padding-right: 3rem;
-  font-size: 0.7rem;
-}
-.fa {
-  margin: 0.3rem;
-  height: 2rem;
-  width: 2rem;
-  line-height: 1.5rem;
-  text-align: center;
-  border: 1px orange solid;
-  color: #eee;
-}
-
-/** NAVBAR HEADING STYLES **/
-ul {
-  display: flex;
-  margin: auto;
-  justify-content: flex-start;
-  padding-left: 0;
-
-}
-li {
-  flex: 1 0 calc(25% - 4rem);
-  margin: 1rem;
-  height: 2.5rem;
-  width: 13.5rem;
-  text-align: center;
-  line-height: 2.5rem;
-  list-style: none;
-  border: 1px #eee solid;
-  background: purple;
-  color: #eee;
-}
-
 /** HERO STYLING **/
 .hero {
   position: relative;
@@ -99,3 +50,6 @@ li {
   top: 23.3rem;
   left: 50%;
 }
+
+@import "page-header.scss";
+@import "top-nav.scss";

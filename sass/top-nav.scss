@@ -1,0 +1,20 @@
+/** TOP NAVBAR HEADING STYLES **/
+ul {
+  display: flex;
+  margin: auto;
+  justify-content: flex-start;
+  padding-left: 0;
+
+}
+li {
+  flex: 1 0 calc(25% - 4rem);
+  margin: 1rem;
+  height: 2.5rem;
+  width: 13.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  list-style: none;
+  border: 1px #eee solid;
+  background: purple;
+  color: #eee;
+}
