@@ -3,6 +3,7 @@
 @import "neat";
 @import "normalize";
 
+
 $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 @import "font-awesome";
 
@@ -21,6 +22,7 @@ a {
   text-decoration: inherit;
   color: #eee;
 }
+
 .container {
   max-width: 1040px;
   margin: auto;
@@ -29,10 +31,12 @@ a {
 
 /** HERO STYLING **/
 .hero {
+  display: flex;
   position: relative;
 }
 
 .hero-bg {
+  flex: 1;
   width: 100%;
   top: 20%;
   border: 0.6rem #eee solid;
@@ -46,10 +50,26 @@ a {
 
 }
 .radio-btns {
-  position: absolute;
-  top: 23.3rem;
-  left: 50%;
+  text-align: center;
 }
+
+/** ARTICLE GRIDS **/
+.article-grid {
+  display: flex;
+}
+.three-up {
+  flex: 1;
+  width: 18rem;
+  margin: 0.6rem 0.3rem;
+  text-align: left;
+  border: 1px #eee solid;
+}
+.article-link {
+  align-items: center;
+}
+
+
+
 
 @import "page-header.scss";
 @import "top-nav.scss";
