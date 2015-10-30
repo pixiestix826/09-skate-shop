@@ -29,7 +29,7 @@ a {
 /** TOP CONNECTION HEADER STYLES **/
 header {
   display: relative;
-  height: 35rem;
+  height: 37rem;
   background: green;
 }
 .top_connect {
@@ -45,7 +45,8 @@ header {
   font-size: 0.7rem;
 }
 .fa {
-  flex: 1 0 auto;
+  flex: auto;
+  margin: 0.3rem;
   height: 2rem;
   width: 2rem;
   line-height: 1.5rem;
@@ -66,6 +67,7 @@ ul {
 }
 li {
   flex: 0 0 auto;
+  margin: 1rem;
   height: 2.5rem;
   width: 12rem;
   text-align: center;
@@ -91,6 +93,6 @@ li {
 }
 .radio_btns {
   position: absolute;
-  top: 80%;
+  top: 24rem;
   left: 50%;
 }
