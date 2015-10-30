@@ -3,17 +3,48 @@
 @import "neat";
 @import "normalize";
 
-
 $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 @import "font-awesome";
 
+/* GLOBAL STYLING */
 html {
   box-sizing: border-box;
 }
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
+body {
+  // background: url(img/bg.jpg);
+}
 a {
   text-decoration: inherit;
+  color: #eee;
+}
+.container {
+  max-width: 1040px;
+  margin: auto;
+  background: blue;
+}
+
+/* HEADER STYLES */
+.top_connect {
+  height: 4rem;
+  background: red;
+}
+.sub_link {
+  font-size: 0.7rem;
+  border-right: 1px #eee dotted;
+}
+.social_link {
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+}
+.fa {
+  flex: 1 0 auto;
+  height: 2rem;
+  width: 2rem;
+  line-height: 1.5rem;
+  text-align: center;
+  border: 1px orange solid;
 }
