@@ -9,12 +9,13 @@ $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 /* GLOBAL STYLING */
 html {
   box-sizing: border-box;
+  background: url(img/bg.jpg);
 }
 *, *::before, *::after {
   box-sizing: inherit;
 }
 body {
-  background: url(img/bg.jpg);
+  background: #a81199;
 }
 a {
   text-decoration: inherit;
@@ -29,11 +30,10 @@ a {
 /** TOP CONNECTION HEADER STYLES **/
 header {
   display: relative;
-  height: calc(100vh - 15rem);
   text-transform: uppercase;
   background: green;
 }
-.top_connect {
+.top-connect {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -41,12 +41,11 @@ header {
   background: red;
   line-height: 6rem;
 }
-.sub_link {
+.sub-link {
   padding-right: 3rem;
   font-size: 0.7rem;
 }
 .fa {
-  flex: auto;
   margin: 0.3rem;
   height: 2rem;
   width: 2rem;
@@ -55,11 +54,6 @@ header {
   border: 1px orange solid;
   color: #eee;
 }
-//  a .social_link {
-//   line-height: 0;
-//   font-size: 0;
-//   color: transparent;
-// }
 
 /** NAVBAR HEADING STYLES **/
 ul {
@@ -87,16 +81,20 @@ li {
   position: relative;
 }
 
-.hero_bg {
-  position: absolute;
+.hero-bg {
   width: 100%;
   top: 20%;
   border: 0.6rem #eee solid;
 }
-.hero_logo {
+.hero-logo {
   position: absolute;
+  left: 1.4rem;
+  top: 2.5rem;
+  height: 10rem;
+  width: 18rem;
+
 }
-.radio_btns {
+.radio-btns {
   position: absolute;
   top: 23.3rem;
   left: 50%;
