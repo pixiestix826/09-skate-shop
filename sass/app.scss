@@ -30,6 +30,7 @@ a {
 header {
   display: relative;
   height: 37rem;
+  text-transform: uppercase;
   background: green;
 }
 .top_connect {
@@ -64,12 +65,13 @@ header {
 ul {
   display: flex;
   justify-content: flex-start;
+
 }
 li {
-  flex: 0 0 auto;
+  flex: 1 0 calc(25% - 4rem);
   margin: 1rem;
   height: 2.5rem;
-  width: 12rem;
+  width: 13.5rem;
   text-align: center;
   line-height: 2.5rem;
   list-style: none;
