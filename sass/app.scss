@@ -58,14 +58,34 @@ a {
   display: flex;
 }
 .three-up {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   width: 18rem;
   margin: 0.6rem 0.3rem;
+  padding: 1rem;
   text-align: left;
   border: 1px #eee solid;
 }
-.article-link {
-  align-items: center;
+.three-up h2 {
+  font-size: 1.7rem;
+  color: #292b29;
+}
+.three-up h4 {
+  font-size: 1rem;
+  margin: 0;
+  font-weight:  normal;
+  color: #646661;
+}
+.three-up p {
+  flex: 1;
+  line-height: 1.5rem;
+  color: #292b29;
+}
+.article-link  {
+  text-align: center;
+  font-weight: bolder;
+  color: red;
 }
 
 
