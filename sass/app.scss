@@ -91,13 +91,15 @@ a {
 /** SKATER GRID **/
 .skater-grid {
   overflow: auto;
-  background: #eee;
 }
 .img-grid__sec {
   margin: 4px;
   border: 5px #eee solid;
   width: calc(33.33% - 8px);
   float: left;
+}
+.img-grid__sec img {
+  width: 100%;
 }
 .img-grid__sec--wide {
   width: calc(66.66% - 8px);
@@ -106,6 +108,11 @@ a {
 }
 .img-grid__sec--tall {
   float: right;
+}
+.skater-grid h1 {
+  position: absolute;
+  bottom: 50%;
+  text-align: center;
 }
 
 
