@@ -15,9 +15,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-body {
-  background: #a81199;
-}
+
 a {
   text-decoration: inherit;
   color: #eee;
@@ -85,12 +83,26 @@ a {
 .article-link  {
   text-align: center;
   font-weight: bolder;
-  color: #8f131e;
+  color: #b51d2a;
 }
 
 /** SKATER GRID **/
 .skater-grid {
+  position: relative;
   overflow: auto;
+}
+h2 {
+  position: absolute;
+  right: 100%;
+  width: 12rem;
+  height: 4rem;
+  margin: 0;
+  padding: 1rem 0 1rem 0.5rem;
+  border: 2px #b51d2a solid;
+  background: #b51d2a;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: #eee;
 }
 .img-grid__sec {
   float: left;
@@ -99,6 +111,7 @@ a {
   width: calc(33.33% - 8px);
 }
 .img-grid__sec img {
+  position: relative;
   width: 100%;
 }
 .img-grid__sec--wide {
@@ -109,12 +122,14 @@ a {
 .img-grid__sec--tall {
   float: right;
 }
-.skater-grid h1 {
+.skater-name {
+  position: absolute;
   margin: 0;
   padding: 0;
+  vertical-align: middle;
   text-align: center;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 0.8rem;
   font-weight: bold;
 }
 
