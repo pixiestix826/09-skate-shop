@@ -93,10 +93,10 @@ a {
   overflow: auto;
 }
 .img-grid__sec {
+  float: left;
   margin: 4px;
   border: 5px #eee solid;
   width: calc(33.33% - 8px);
-  float: left;
 }
 .img-grid__sec img {
   width: 100%;
@@ -110,8 +110,8 @@ a {
   float: right;
 }
 .skater-grid h1 {
-  position: absolute;
-  bottom: 50%;
+
+
   text-align: center;
 }
 
