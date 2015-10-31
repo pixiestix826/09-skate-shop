@@ -88,6 +88,25 @@ a {
   color: red;
 }
 
+/** SKATER GRID **/
+.skater-grid {
+  overflow: auto;
+  background: #eee;
+}
+.img-grid__sec {
+  margin: 4px;
+  border: 5px #eee solid;
+  width: calc(33.33% - 8px);
+  float: left;
+}
+.img-grid__sec--wide {
+  width: calc(66.66% - 8px);
+  float: left;
+  transform: translate(0% 0 19.5%);
+}
+.img-grid__sec--tall {
+  float: right;
+}
 
 
 
