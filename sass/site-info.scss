@@ -42,12 +42,16 @@
   width: 25rem;
   margin: 0.5rem;
 }
+.label {
+  text-align: left;
+}
 .sub-btn {
   float: right;
   margin-right: 0.5rem;
   margin-top: 1rem;
   height: 2.5rem;
   width: 10rem;
+  border: none;
   background: #b51d2a;
   color: #eee;
 }

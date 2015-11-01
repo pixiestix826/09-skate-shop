@@ -9,6 +9,7 @@ $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 
 /* GLOBAL STYLING */
 html {
+  position: relative;
   box-sizing: border-box;
   background: url(img/bg.jpg);
 }
@@ -106,7 +107,7 @@ a {
   font-weight: bolder;
   color: #eee;
 }
-skater-grid h2::before {
+.skater-grid h2::before {
   position: absolute;
   width: 0;
   height: 0;
@@ -124,11 +125,12 @@ skater-grid h2::before {
 }
 .img-grid__sec img {
   width: 100%;
+  vertical-align: middle;
 }
 .img-grid__sec--wide {
   width: calc(66.66% - 8px);
   float: left;
-  transform: translate(0% 0 19.5%);
+  transform: translate(0% 0 21%);
 }
 .img-grid__sec--tall {
   float: right;
@@ -137,14 +139,14 @@ skater-grid h2::before {
   position: absolute;
   margin: 0;
   padding: 2rem;
-  top: 20%;
+  top: 10%;
   text-align: center;
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: bold;
 }
 .skater-name__steve {
-  left: 4rem;
+  left: 4.5rem;
 }
 .skater-name__tommy {
   top: 30%;
