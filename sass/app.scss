@@ -10,7 +10,7 @@ $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 /* GLOBAL STYLING */
 html {
   box-sizing: border-box;
-  background: url(img/bg.jpg);
+  // background: url(img/bg.jpg);
 }
 *, *::before, *::after {
   box-sizing: inherit;
@@ -24,7 +24,7 @@ a {
 .container {
   max-width: 1040px;
   margin: auto;
-  background: blue;
+
 }
 
 /** HERO STYLING **/
@@ -64,6 +64,7 @@ a {
   padding: 1rem;
   text-align: left;
   border: 1px #eee solid;
+  background: #eee;
 }
 .three-up h2 {
   font-size: 1.7rem;
@@ -104,14 +105,23 @@ h2 {
   font-weight: bolder;
   color: #eee;
 }
+h2::before {
+position: absolute;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 50px 0 50px 86.6px;
+border-color: transparent transparent transparent #b51d2a;
+}
+
 .img-grid__sec {
   float: left;
+  position: relative;
   margin: 4px;
   border: 5px #eee solid;
   width: calc(33.33% - 8px);
 }
 .img-grid__sec img {
-  position: relative;
   width: 100%;
 }
 .img-grid__sec--wide {
@@ -125,15 +135,24 @@ h2 {
 .skater-name {
   position: absolute;
   margin: 0;
-  padding: 0;
-  vertical-align: middle;
+  padding: 2rem;
+  top: 20%;
   text-align: center;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   font-weight: bold;
+}
+.skater-name__steve {
+  left: 4rem;
+}
+.skater-name__tommy {
+  top: 30%;
 }
 
 /** SKATEBOARD GRID **/
+.skateboard-grid {
+  background: white;
+}
 .skateboard-grid img {
   flex: auto;
   margin: 0.6rem;

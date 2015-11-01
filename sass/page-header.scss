@@ -2,14 +2,12 @@
 header {
   display: relative;
   text-transform: uppercase;
-  background: green;
 }
 .top-connect {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   height: 4rem;
-  background: red;
   line-height: 6rem;
 }
 .sub-link {
@@ -18,10 +16,27 @@ header {
 }
 .fa {
   margin: 0.3rem;
+  padding: 0.1rem;
   height: 2rem;
   width: 2rem;
   line-height: 1.5rem;
   text-align: center;
-  border: 1px orange solid;
+  border: 1px transparent solid;
   color: #eee;
+}
+.fa-facebook {
+  background: blue;
+  color: lightblue;
+}
+.fa-rss {
+  background: goldenrod;
+  color:rgb(227, 210, 119);
+}
+.fa-twitter {
+  background: #7d9ccb;
+  color: #9db0cd;
+}
+.fa-youtube {
+ background: #b51d2a;
+ color: #b85d64;
 }
