@@ -3,7 +3,9 @@
 @import "neat";
 @import "normalize";
 
-
+$skater-black: #292b29;
+$skater-red: #b51d2a;
+$skater-white:#e9e7e7;
 $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 @import "font-awesome";
 
@@ -19,7 +21,7 @@ html {
 
 a {
   text-decoration: inherit;
-  color: #eee;
+  color: #e9e7e7;
 }
 
 .container {

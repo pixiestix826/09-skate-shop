@@ -13,7 +13,7 @@ header {
 .sub-link {
   padding-right: 3.5rem;
   font-size: 0.7rem;
-  color: #eee;
+  color: $skater-white;
   font-weight: bold;
 }
 .fa {
@@ -38,6 +38,6 @@ header {
   color: #9db0cd;
 }
 .fa-youtube {
- background: #b51d2a;
+ background: $skater-red;
  color: #b85d64;
 }
