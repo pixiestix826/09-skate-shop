@@ -11,8 +11,10 @@ header {
   line-height: 6rem;
 }
 .sub-link {
-  padding-right: 3rem;
+  padding-right: 3.5rem;
   font-size: 0.7rem;
+  color: #eee;
+  font-weight: bold;
 }
 .fa {
   margin: 0.3rem;
@@ -22,7 +24,6 @@ header {
   line-height: 1.5rem;
   text-align: center;
   border: 1px transparent solid;
-  color: #eee;
 }
 .fa-facebook {
   background: blue;
