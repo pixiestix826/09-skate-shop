@@ -29,7 +29,7 @@
 
 /** CONTACT FORM STYLES **/
 .contact-form {
-  position: relative;
+  overflow: hidden;
   width: calc(50% - 2rem);
   margin: 1rem;
 }
@@ -47,13 +47,6 @@
   height: 5rem;
   width: 25rem;
   margin: 0.5rem;
-}
-.label {
-  text-align: left;
-  vertical-align: middle;
-  text-transform: uppercase;
-  font-weight: normal;
-  color: lighten($skater-black, 60%);
 }
 .sub-btn {
   float: right;
