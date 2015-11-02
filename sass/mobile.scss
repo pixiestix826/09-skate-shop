@@ -1,0 +1,45 @@
+@media only screen and (max-width: 460px) {
+  .container {
+    flex: 1 0 calc(100%);
+  }
+  .nav-items {
+    display: none;
+  }
+  .hero-bg {
+    display: none;
+  }
+  .hero-logo {
+    flex: 1 0 100%;
+    top: 20%;
+    width: 370px;
+    padding: 1rem;
+    border: 6px $skater_red solid;
+    background: $skater_white;
+  }
+  .article-grid {
+    flex: auto;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 14em;
+  }
+  .skater-grid {
+    display: none;
+  }
+  .skater-grid h2 {
+    display: none;
+  }
+  .skater-grid h1 {
+    font-size: 0.4rem;
+  }
+  .skateboard-grid {
+    display: none;
+  }
+  .contact-form {
+    flex: auto;
+    width: 370px;
+    vertical-align: middle;
+  }
+  .site-info {
+    display: none;
+  }
+}

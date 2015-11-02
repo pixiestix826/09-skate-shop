@@ -6,6 +6,7 @@
   margin-top: 2rem;
   margin-bottom: 4rem;
   border: 1px transparent solid;
+  box-shadow: 0 5px 0 $shadow_grey;
   background: white;
 }
 .site-info {
@@ -17,14 +18,15 @@
 }
 .site-info .fa {
   margin: 0.1rem;
-  height: 1.3rem;
-  width: 1.3rem;
+  height: 1.5rem;
+  width: 1.5rem;
   padding-top: 0.3rem;
-  line-height: 0.6rem;
+  line-height: 0.8rem;
   text-align: center;
   background: grey;
   border: 1px transparent solid;
-  color: lightgrey;
+  box-shadow: none;
+  color: $shadow_grey;
 }
 
 /** CONTACT FORM STYLES **/
@@ -42,18 +44,20 @@
   height: 2.5rem;
   width: 25rem;
   margin: 0.5rem;
+  box-shadow: inset 0 3px 0 $shadow_grey;
 }
 #your-message {
   height: 5rem;
   width: 25rem;
   margin: 0.5rem;
+  box-shadow: inset 0 3px 0 $shadow_grey;
 }
 .sub-btn {
   float: right;
   margin-right: 0.5rem;
   margin-top: 1rem;
   height: 2.5rem;
-  width: 10rem;
+  width: 15rem;
   border: none;
   background: $skater-red;
   color: $skater-white;

@@ -14,7 +14,7 @@ header {
   padding-right: 3.5rem;
   font-size: 0.7rem;
   color: $skater-white;
-  text-shadow: grayscale($skater_black);
+  text-shadow: 0.5px 0.5px 0.5px grayscale($skater_black);
   font-weight: bold;
 }
 .fa {
@@ -25,6 +25,7 @@ header {
   line-height: 1.5rem;
   text-align: center;
   border: 1px transparent solid;
+  box-shadow: 0 5px 0 $shadow_grey;
 }
 .fa-facebook {
   background: blue;
@@ -39,6 +40,6 @@ header {
   color: #9db0cd;
 }
 .fa-youtube {
- background: $skater-red;
- color: #b85d64;
+ background: $skater_red;
+ color: lighten($skater_red, 25%);;
 }

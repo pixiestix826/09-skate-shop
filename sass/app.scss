@@ -6,7 +6,8 @@
 $skater_black: #292b29;
 $skater_light_black: adjust-hue($skater_black, 25deg);
 $skater_red: #b51d2a;
-$skater_white:#e9e7e7;
+$skater_white: #e9e7e7;
+$shadow_grey: #a7abaa;
 $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 @import "font-awesome";
 
@@ -42,6 +43,7 @@ a {
   width: 100%;
   top: 20%;
   border: 0.6rem $skater_white solid;
+  box-shadow: 0 5px 0 $shadow_grey;
 }
 .hero-logo {
   position: absolute;
@@ -70,7 +72,8 @@ a {
   padding: 1rem;
   text-align: left;
   border: 1px $skater_white solid;
-  background: $skater_white
+  box-shadow: 0 5px 0 $shadow_grey;
+  background: $skater_white;
 }
 .three-up h2 {
   font-size: 1.7rem;
@@ -107,6 +110,7 @@ a {
   margin: 0;
   padding: 1rem 0 1rem 0.5rem;
   border: 2px $skater-red solid;
+  box-shadow: 0 5px 0 $shadow_grey;
   background: $skater_red;
   font-size: 1.2rem;
   font-weight: bolder;
@@ -119,6 +123,7 @@ a {
   border-style: solid;
   border-width: 50px 0 50px 86.6px;
   border-color: transparent transparent transparent $skater_red;
+  box-shadow: 0 5px 0 $shadow_grey;
 }
 
 .img-grid__sec {
@@ -126,6 +131,7 @@ a {
   position: relative;
   margin: 4px;
   border: 5px $skater_white solid;
+  box-shadow: 0 5px 0 $shadow_grey;
   width: calc(33.33% - 8px);
 }
 .img-grid__sec img {
@@ -161,6 +167,7 @@ a {
 .skateboard-grid {
   margin-top: 2rem;
   background: white;
+  box-shadow: 0 5px 0 $shadow_grey;
 }
 .skateboard-grid img {
   flex: auto;
@@ -172,4 +179,6 @@ a {
 
 @import "page-header.scss";
 @import "top-nav.scss";
-@import "site-info"
+@import "site-info";
+@import "mobile";
+@import "tablet-layout";
