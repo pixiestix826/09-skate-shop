@@ -1,0 +1,32 @@
+@media only screen and (max-width: 960px) {
+
+.nav-items {
+  font-size: 0.5rem;
+}
+
+.skater-grid h1 {
+  font-size: 1rem;
+}
+
+.article-grid {
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+.skateboard-grid {
+  flex-wrap: wrap;
+  justify-content: center;
+  float: none;
+}
+
+.contact-form {
+  flex-wrap: wrap;
+  width: 60%;
+}
+.site-info {
+  width: 40%;
+  margin: 0;
+  padding: 0.8rem;
+}
+
+}

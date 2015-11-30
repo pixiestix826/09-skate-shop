@@ -34,14 +34,11 @@ a {
 
 /** HERO STYLING **/
 .hero {
-  display: flex;
   position: relative;
 }
 
 .hero-bg {
-  flex: 1;
   width: 100%;
-  top: 20%;
   border: 0.6rem $skater_white solid;
   box-shadow: 0 5px 0 $shadow_grey;
 }
@@ -49,9 +46,8 @@ a {
   position: absolute;
   left: 2rem;
   top: 4rem;
-  height: 15rem;
-  width: 26rem;
-
+  max-height: 50%;
+  width: 40%;
 }
 .radio-btns {
   text-align: center;
