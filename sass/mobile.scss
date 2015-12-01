@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
 
   .nav-items {
     display: none;
@@ -27,7 +27,7 @@
     display: none;
   }
   .skater-grid h1 {
-    font-size: 0.4rem;
+    display: none;
   }
   .skateboard-grid {
     flex-wrap: wrap;

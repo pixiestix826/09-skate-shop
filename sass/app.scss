@@ -11,6 +11,12 @@ $shadow_grey: #a7abaa;
 $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 @import "font-awesome";
 
+.clearfix::before, .clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
 /* GLOBAL STYLING */
 html {
   position: relative;
@@ -40,7 +46,7 @@ a {
 .hero-bg {
   width: 100%;
   border: 0.6rem $skater_white solid;
-  box-shadow: 0 5px 0 $shadow_grey;
+  box-shadow: 0 4px 0 $shadow_grey;
 }
 .hero-logo {
   position: absolute;
@@ -68,7 +74,7 @@ a {
   padding: 1rem;
   text-align: left;
   border: 1px $skater_white solid;
-  box-shadow: 0 5px 0 $shadow_grey;
+  box-shadow: 0 4px 0 $shadow_grey;
   background: $skater_white;
 }
 .three-up h2 {
@@ -95,31 +101,33 @@ a {
 /** SKATER GRID **/
 .skater-grid {
   position: relative;
-  overflow: auto;
-  margin-top: 2rem;
+  overflow: visible;
+  margin-top: 1.5rem;
 }
 .skater-grid h2 {
   position: absolute;
   right: 100%;
-  width: 12rem;
-  height: 4rem;
-  margin: 0;
+  width: 9rem;
+  height: 3rem;
+  margin-right: 2.5rem;
   padding: 1rem 0 1rem 0.5rem;
   border: 2px $skater-red solid;
-  box-shadow: 0 5px 0 $shadow_grey;
+  box-shadow: 0 4px 0 $shadow_grey;
   background: $skater_red;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-weight: bolder;
   color: #eee;
 }
-.skater-grid h2::before {
+
+.skater-grid h2::after {
+  content: "";
   position: absolute;
-  width: 0;
-  height: 0;
+  right: -28.5%;
+  top: -10%;
   border-style: solid;
-  border-width: 50px 0 50px 86.6px;
+  border-width: 28px 0 28px 40.6px;
   border-color: transparent transparent transparent $skater_red;
-  box-shadow: 0 5px 0 $shadow_grey;
+  // box-shadow: 0 5px 0 $shadow_grey;
 }
 
 .img-grid__sec {
@@ -127,7 +135,7 @@ a {
   position: relative;
   margin: 4px;
   border: 5px $skater_white solid;
-  box-shadow: 0 5px 0 $shadow_grey;
+  box-shadow: 0 4px 0 $shadow_grey;
   width: calc(33.33% - 8px);
 }
 .img-grid__sec img {
@@ -161,7 +169,8 @@ a {
 
 /** SKATEBOARD GRID **/
 .skateboard-grid {
-  margin-top: 2rem;
+  clear: both;
+  margin-top: 15px;
   background: white;
   box-shadow: 0 5px 0 $shadow_grey;
 }
